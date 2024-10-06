@@ -2,7 +2,6 @@ import requests
 from bs4 import BeautifulSoup
 import re
 from flask import Flask, request, jsonify
-from llm import CategoryClassifier
 from typing import List, Tuple, Dict
 from flask_cors import CORS
 
